@@ -1,0 +1,9 @@
+{
+  "name": "free_mart",
+  "version": "0.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "qunit": "~1.12.0"
+  }
+}
+
