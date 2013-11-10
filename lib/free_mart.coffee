@@ -22,7 +22,7 @@
 )(this, ->
   'use strict'
 
-  free_marta = ->
+  free_mart = ->
 
   # Return a value to define the module export.
   # This example returns a functions, but the module

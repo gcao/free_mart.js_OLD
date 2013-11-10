@@ -2,6 +2,12 @@
 
 'use strict'
 
-test 'Library answer questions with YO!', ->
-  ok(free_mart('Should I tickle this unicorn?') is 'YO!', 'Passed!')
+chai = require 'chai'
+chai.should()
+
+free_mart = require 'free_mart'
+
+test 'free_mart', ->
+  free_mart.register('a', 'aa')
+  free_mart.request('a').should.equal 'aa'
 

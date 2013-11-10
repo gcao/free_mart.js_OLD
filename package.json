@@ -1,9 +1,9 @@
 {
   "name": "free_mart",
-  "version": "0.0.0",
-  "homepage" : "http://www.youtube.com/watch?v=cDuG95DXbw8",
+  "version": "0.1.0",
+  "homepage" : "",
   "author" : {
-    "name" : "Obi-Wan Kenobi"
+    "name" : "Guoliang Cao"
   },
   "dependencies": {},
   "devDependencies": {
@@ -14,6 +14,8 @@
     "grunt-contrib-concat" : "~0.3.0",
     "grunt-contrib-watch"  : "~0.4.4",
     "matchdep"             : "~0.1.2",
-    "grunt-contrib-qunit"    : "~0.3.0"
+    "grunt-contrib-qunit"  : "~0.3.0"
+    "mocha"                : "~1.14.0"
+    "chai"                 : "~1.8.1"
   }
 }
